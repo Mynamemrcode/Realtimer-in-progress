@@ -1,0 +1,13 @@
+h1 {
+    font-family: 'Zen Tokyo Zoo', cursive;
+    margin: 0mm;
+}
+
+#diffont {
+    font-family: 'Caveat', cursive;
+    font-size:25px;
+    background: orange;
+}
+body {
+background: linear-gradient(135deg, #f0ad4e 0%, yellow 100%);
+}
