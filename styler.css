@@ -11,3 +11,12 @@ h1 {
 body {
 background: linear-gradient(135deg, #f0ad4e 0%, yellow 100%);
 }
+#byme {
+    position: fixed;
+    bottom: 0;
+    background:orange;
+    width:100%;
+}
+canvas {
+border-radius: 15px;
+}
