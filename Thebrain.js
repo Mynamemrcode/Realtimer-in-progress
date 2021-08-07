@@ -6,7 +6,7 @@ function setup(){
     canvas.center();
     video = createCapture(VIDEO);
     video.hide();
-    classifier = ml5.imageClassify('https://teachablemachine.withgoogle.com/models/iNZXwoBiw/model.json', Loader);
+    classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/iNZXwoBiw/model.json', Loader);
 }
 function draw() {
 image(video,0,0,800,500);
